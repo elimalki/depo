@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/txtLine_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTopLine"
+            style="@style/TextViewString"
+            android:text="Mode: ----------"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/txtLine_1"
+        android:layout_below="@id/txtLine_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvBottomLine"
+            style="@style/TextViewString"
+            android:text="Regular: -------" />
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/btn_table"
+        android:layout_below="@id/txtLine_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2,3"
+        android:stretchColumns="0,1,2,3,4"
+        android:weightSum="0.8">
+
+        <TableRow
+            android:id="@+id/btnLine_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt1"
+                style="@style/BtnStyle"
+                android:text="@string/btn1_ext_text" />
+
+            <Button
+                android:id="@+id/bt2"
+                style="@style/BtnStyle"
+                android:text="@string/btn2_ext_text" />
+
+            <Button
+                android:id="@+id/bt3"
+                style="@style/BtnStyle"
+                android:text="@string/btn3_ext_text" />
+
+            <Button
+                android:id="@+id/btA"
+                style="@style/BtnStyle2"
+                android:layout_span="2"
+                android:text="@string/btnA_ext_text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/btnLine_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt4"
+                style="@style/BtnStyle"
+                android:text="@string/btn4_ext_text" />
+
+            <Button
+                android:id="@+id/bt5"
+                style="@style/BtnStyle"
+                android:text="@string/btn5_ext_text" />
+
+            <Button
+                android:id="@+id/bt6"
+                style="@style/BtnStyle"
+                android:text="@string/btn6_ext_text" />
+
+            <Button
+                android:id="@+id/btB"
+                style="@style/BtnStyleArrow"
+                android:layout_span="2"
+                android:text="@string/btnB_ext_text" />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/btnLine_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt7"
+                style="@style/BtnStyle"
+                android:text="@string/btn7_ext_text" />
+
+            <Button
+                android:id="@+id/bt8"
+                style="@style/BtnStyle"
+                android:text="@string/btn8_ext_text" />
+
+            <Button
+                android:id="@+id/bt9"
+                style="@style/BtnStyle"
+                android:text="@string/btn9_ext_text" />
+            // U+2193
+
+            <Button
+                android:id="@+id/btC"
+                style="@style/BtnStyleArrow"
+                android:layout_span="2"
+                android:text="@string/btnC_ext_text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/btnLine_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btStar"
+                style="@style/BtnStyle"
+                android:text="@string/btnStar_ext_text" />
+            <Button
+                android:id="@+id/bt0"
+                style="@style/BtnStyle"
+                android:text="@string/btn0_ext_text" />
+            <Button
+                android:id="@+id/btSharp"
+                style="@style/BtnStyle"
+                android:text="@string/btnSharp_ext_text" />
+            <Button
+                android:id="@+id/btD"
+                style="@style/BtnStyle2"
+                android:layout_span="2"
+                android:text="@string/btnD_ext_text" />
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+            android:id="@+id/Line_KS"
+            android:layout_below="@id/btn_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2,3,4,5"
+            android:weightSum="1">
+            <TableRow
+                android:id="@+id/btnLine_KS"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvKeySequence"
+                    style="@style/TextViewSendString_Disable"
+                    android:layout_column="0"
+                    android:layout_span="4"
+                    android:text="@string/textView_KeySequence_Default" />
+                <Button
+                    android:id="@+id/btSend"
+                    style="@style/BtnStyle2"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    android:text="@string/btnSend_text"
+                    android:visibility="visible" />
+            </TableRow>
+    </TableLayout>
+
+    <TableLayout
+            android:id="@+id/Line_Links"
+            android:layout_below="@id/btn_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1,2,3"
+            android:stretchColumns="0,1,2,3,4"
+            android:weightSum="1">
+            <TableRow
+                android:id="@+id/btnLine_Link"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/bt_YouTubeLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="5sp"
+                    android:src="@mipmap/ic_youtube"
+                    android:background="@null"
+                    android:layout_column="0"
+                    android:layout_span="1"
+                    android:text="Y" />
+
+                <Button
+                    android:id="@+id/bt_SupportLink"
+                    style="@style/BtnStyle2"
+                    android:text="@string/btnSupport_text"/>
+
+                <ImageButton
+                    android:id="@+id/bt_HomeLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="5sp"
+                    android:src="@mipmap/ic_home"
+                    android:background="@null"
+                    android:layout_column="2"
+                    android:layout_span="1"
+                    android:text="H" />
+            </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_APK_Version"
+        style="@style/apk_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/app_version" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,210 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewString">
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/TVS_TextSize_Dis</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/TextViewStringMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/TextViewStringMarginBot</item>
+        <item name="android:layout_marginLeft">@dimen/TextViewStringMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/TextViewStringMarginRight</item>
+        <item name="android:background">@drawable/textview_shape_enable</item>
+        <item name="android:minEms">16</item>
+        <item name="android:layout_marginStart">@dimen/TextViewStringMarginStart</item>
+        <item name="android:layout_marginEnd">@dimen/TextViewStringMarginEnd</item>
+    </style>
+
+    <style name="TextViewSendString_Enable">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">250sp</item>
+        <item name="android:layout_height">70sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/TVS_TextSize_En</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/TextViewStringMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/TextViewStringMarginBot</item>
+        <item name="android:layout_marginLeft">@dimen/TextViewStringMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/TextViewStringMarginRight</item>
+        <item name="android:background">@drawable/textview_shape_enable</item>
+        <item name="android:minEms">16</item>
+        <item name="android:layout_marginStart">@dimen/TextViewStringMarginStart</item>
+        <item name="android:layout_marginEnd">@dimen/TextViewStringMarginEnd</item>
+    </style>
+
+    <style name="TextViewSendString_Disable">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">250sp</item>
+        <item name="android:layout_height">70sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/TVS_TextSize_Dis</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/TextViewStringMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/TextViewStringMarginBot</item>
+        <item name="android:layout_marginLeft">@dimen/TextViewStringMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/TextViewStringMarginRight</item>
+        <item name="android:background">@drawable/textview_shape_disable</item>
+        <item name="android:minEms">16</item>
+        <item name="android:layout_marginStart">@dimen/TextViewStringMarginStart</item>
+        <item name="android:layout_marginEnd">@dimen/TextViewStringMarginEnd</item>
+    </style>
+
+
+    <style name="ViewDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+    <style name="BtnStyle">
+        <item name="android:textColor">@color/colorBtnText</item>
+        <item name="android:textSize">@dimen/BtnTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:layout_marginStart">@dimen/BtnMarginStart</item>-->
+        <item name="android:layout_marginLeft">@dimen/BtnMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/BtnMarginRight</item>
+        <item name="android:layout_marginTop">@dimen/BtnMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/BtnMarginBot</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:hapticFeedbackEnabled">true</item>
+    </style>
+
+    <style name="BtnStyleArrow">
+        <item name="android:textColor">@color/colorBtnText</item>
+        <item name="android:textSize">@dimen/BtnArrowTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/BtnMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/BtnMarginBot</item>
+        <item name="android:layout_marginLeft">@dimen/BtnMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/BtnMarginRight</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="BtnStyle2">
+        <item name="android:textColor">@color/colorBtnText</item>
+        <item name="android:textSize">@dimen/BtnTextSize2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/BtnMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/BtnMarginBot</item>
+        <!--<item name="android:layout_marginStart">@dimen/BtnMarginStart</item>-->
+        <!--<item name="android:layout_marginEnd">@dimen/BtnMarginEnd</item>-->
+        <item name="android:layout_marginLeft">@dimen/BtnMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/BtnMarginRight</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="BtnStyle_Support">
+        <item name="android:textColor">@color/colorBtnText</item>
+        <item name="android:textSize">@dimen/BtnTextSize2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <!--<item name="android:layout_width">0dp</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <item name="android:layout_marginTop">@dimen/BtnMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/BtnMarginBot</item>
+        <!--<item name="android:layout_marginStart">@dimen/BtnMarginStart</item>-->
+        <!--<item name="android:layout_marginEnd">@dimen/BtnMarginEnd</item>-->
+        <item name="android:layout_marginLeft">@dimen/BtnMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/BtnMarginRight</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="apk_version">
+        <item name="android:textColor">@color/colorApkVersion</item>
+        <item name="android:textSize">@dimen/TextViewApkVersionSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginTop">@dimen/BtnMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/BtnMarginBot</item>
+        <!--<item name="android:layout_marginStart">@dimen/BtnMarginStart</item>-->
+        <!--<item name="android:layout_marginEnd">@dimen/BtnMarginEnd</item>-->
+        <item name="android:layout_marginLeft">@dimen/BtnMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/BtnMarginRight</item>
+        <!--<item name="android:background">@drawable/button_background</item>-->
+    </style>
+
+
+    <style name="BtnHelloScreenStyle">
+        <item name="android:textColor">@color/colorBtnText</item>
+        <item name="android:textSize">@dimen/BtnHelloScreenTextSize</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:layout_marginStart">@dimen/BtnMarginStart</item>-->
+        <item name="android:layout_marginLeft">@dimen/BtnHelloScreenMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/BtnHelloScreenMarginRight</item>
+        <item name="android:layout_marginTop">@dimen/BtnHelloScreenMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/BtnHelloScreenMarginBot</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="BtnNewUserScreenStyle">
+        <item name="android:textColor">@color/colorBtnText</item>
+        <item name="android:textSize">@dimen/BtnHelloScreenTextSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:layout_marginStart">@dimen/BtnMarginStart</item>-->
+        <item name="android:layout_marginLeft">@dimen/BtnHelloScreenMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/BtnHelloScreenMarginRight</item>
+        <item name="android:layout_marginTop">@dimen/BtnHelloScreenMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/BtnHelloScreenMarginBot</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="TextEdit_new_user">
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/TVS_TextSize_Dis</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/TextViewStringMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/TextViewStringMarginBot</item>
+        <item name="android:layout_marginLeft">@dimen/TextViewStringMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/TextViewStringMarginRight</item>
+        <item name="android:background">@drawable/textview_shape_enable</item>
+        <item name="android:minEms">16</item>
+        <item name="android:layout_marginStart">@dimen/TextViewStringMarginStart</item>
+        <item name="android:layout_marginEnd">@dimen/TextViewStringMarginEnd</item>
+    </style>
+</resources>

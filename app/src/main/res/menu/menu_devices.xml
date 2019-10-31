@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ble_scan"
+        android:title="@string/menuScanBtn_Scan_text"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ble_scan_stop"
+        android:title="@string/menuScanBtn_Stop_text"
+        app:showAsAction="ifRoom"
+        android:visible="false" />
+    <item
+        android:id="@+id/bt_settings"
+        app:showAsAction="ifRoom"
+        android:title="@string/menuItem_Bluetooth_settings" />
+    <item
+        android:id="@+id/bt_home_site"
+        app:showAsAction="ifRoom"
+        android:title="@string/home_site_link"
+        />
+    <item
+        android:id="@+id/bt_user_info"
+        app:showAsAction="ifRoom"
+        android:title="@string/menuItem_user_info"
+        />
+    <item
+        android:id="@+id/bt_line"
+        app:showAsAction="ifRoom"
+        android:title="@string/menuItem_line"
+        />
+    <item
+        android:id="@+id/bt_reset_user_info"
+        app:showAsAction="ifRoom"
+        android:title="@string/menuItem_reset_user_info"
+        />
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:autoLink="web"-->
+        <!--android:background="@color/deviceList_Color"-->
+        <!--android:drawableLeft="@drawable/ic_talinor_logo"-->
+        <!--android:drawablePadding="2dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/home_site_linksite_link"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+        <!--android:textColorLink="@color/md_black_1000" />-->
+</menu>

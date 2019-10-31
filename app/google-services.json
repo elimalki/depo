@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "942205403892",
+    "firebase_url": "https://talinor-3026f.firebaseio.com",
+    "project_id": "talinor-3026f",
+    "storage_bucket": "talinor-3026f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942205403892:android:e14d65cb482497f3",
+        "android_client_info": {
+          "package_name": "pvt.talinor.ptl8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942205403892-omt2epotmq23vojl9jem1vu16sofnds7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8qDk61OXznULUPiB1lXX7E62zD2crKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942205403892-omt2epotmq23vojl9jem1vu16sofnds7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

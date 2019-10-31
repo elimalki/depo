@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="TVS_TextSize_En">30dp</dimen>
+    <dimen name="TVS_TextSize_Dis">20dp</dimen>
+
+    <dimen name="TextViewStringMarginAll">15dp</dimen>
+    <dimen name="TextViewStringMarginTop">5dp</dimen>
+    <dimen name="TextViewStringMarginBot">5dp</dimen>
+    <dimen name="TextViewStringMarginLeft">15dp</dimen>
+    <dimen name="TextViewStringMarginRight">15dp</dimen>
+    <dimen name="TextViewStringMarginStart">15dp</dimen>
+    <dimen name="TextViewStringMarginEnd">15dp</dimen>
+
+
+    <dimen name="BtnTextSize">25dp</dimen>
+    <dimen name="BtnArrowTextSize">25dp</dimen>
+
+    <dimen name="BtnMarginAll">15dp</dimen>
+    <dimen name="BtnMarginTop">15dp</dimen>
+    <dimen name="BtnMarginBot">15dp</dimen>
+    <dimen name="BtnMarginLeft">20dp</dimen>
+    <dimen name="BtnMarginRight">20dp</dimen>
+    <dimen name="BtnMarginStart">20dp</dimen>
+    <dimen name="BtnMarginEnd">20dp</dimen>
+
+    <dimen name="BtnTextSize2">15dp</dimen>
+
+    <dimen name="BtnScanSize">15dp</dimen>
+
+    <dimen name="TextViewApkVersionSize">15dp</dimen>
+
+    <dimen name="activity_padding">6dp</dimen>
+
+
+    <dimen name="BtnHelloScreenTextSize">25dp</dimen>
+    <dimen name="BtnHelloScreenMarginAll">10dp</dimen>
+    <dimen name="BtnHelloScreenMarginTop">10dp</dimen>
+    <dimen name="BtnHelloScreenMarginBot">10dp</dimen>
+    <dimen name="BtnHelloScreenMarginLeft">20dp</dimen>
+    <dimen name="BtnHelloScreenMarginRight">20dp</dimen>
+    <dimen name="BtnHelloScreenMarginStart">20dp</dimen>
+    <dimen name="BtnHelloScreenMarginEnd">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

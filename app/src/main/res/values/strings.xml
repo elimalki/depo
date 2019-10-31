@@ -1,0 +1,189 @@
+<resources>
+    <!--<string name="app_name">Talinor toolkit</string>-->
+    <string name="app_name">Talinor</string>
+    <string name="app_name_title">TALINOR</string>
+
+    <string name="home_site_link">http://www.talinor.co.uk</string>
+
+    //-----------------------
+    // ссыкли в Hello Screen
+    //-----------------------
+    <!--<string name="talinor_err_codes_link">http://talinor.co.uk/error-codes</string>-->
+    <string name="talinor_support_link">http://talinor.co.uk/support2</string>
+    <string name="talinor_download_link">http://talinor.co.uk/downloads</string>
+    <string name="talinor_forms_link">http://talinor.co.uk/quote</string>
+    <string name="talinor_login_to_iot_link">https://talinor.devicewise.net/app/login</string>
+    //=======================
+
+    <!--<string name="app_version">V1.0</string>-->
+
+    <string name="location_permission_title">Location permission required</string>
+    <string name="location_permission_message">This app does not use location information, but scanning for Bluetooth LE devices requires this permission</string>
+
+    <string name="location_denied_title">Location permission denied</string>
+    <string name="location_denied_message">As location permission has not been granted, this app cannot scan for Bluetooth LE devices</string>
+    <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
+
+    //-----------------------
+    // сообщения на фоне
+    //-----------------------
+    // http://xml.silmaril.ie/specials.html
+    <string name="setEmptyText_BlueTooth_LE_Not_Support">&lt;bluetooth LE not supported&gt;"</string>
+    <string name="setEmptyText_BlueTooth_Is_Disables">&lt;bluetooth is disabled&gt;"</string>
+    <string name="setEmptyText_Refresh_Mess">&lt;use CONNECT to refresh devices&gt;"</string>
+    <string name="setEmptyText_Scanning">&lt;scanning...&gt;"</string>
+    <string name="setEmptyText_No_BlueTooth_Dev_Found">&lt;no bluetooth devices found&gt;"</string>
+    //=======================
+
+    //-----------------------
+    // строки для диалогов
+    //-----------------------
+
+    <string name="alert_dialog_positive_btn">Yes</string>
+    <string name="alert_dialog_negative_btn">No</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+
+    <string name="alert_dialog_title_reset">Confirm Reset</string>
+    <string name="alert_dialog_title_reset_user_sets">Confirm User Sets Reset</string>
+    <string name="alert_dialog_title_logreset">Confirm Log Reset</string>
+    <string name="dialog_about_title_user_info">User Info</string>
+    <string name="dialog_about_title">About</string>
+
+    <string name="alert_dialog_toast_positive_mes">You\'ve chosen Yes</string>
+    <string name="alert_dialog_toast_negative_mes">You\'ve chosen No</string>
+
+    <string name="dialog_about_message">This is about mes</string>
+    <string name="alert_dialog_confirm_mess">Are you sure?</string>
+
+    <string name="dialog_title_settings">Settings</string>
+    <string name="dialog_settings_message">This is about mes</string>
+    //=======================
+
+    <string name="toast_mes_keySeq_input_show">Key Sequence: show!</string>
+    <string name="toast_mes_keySeq_input_hide">Key Sequence: hide!</string>
+    <string name="toast_mes_keySeq_input_enabled">Key Sequence: input Enabled!</string>
+    <string name="toast_mes_keySeq_input_disabled">Key Sequence: input Disabled!</string>
+
+    <string name="textView_Top_Line_Default">Mode: ----------</string>
+    <string name="textView_Bot_Line_Default">Regular: -------</string>
+    <string name="textView_KeySequence_Default">Key Sequence</string>
+    <string name="textView_KeySequence_On"></string>
+
+    <string name="btnSend_text">Send</string>
+
+    <string name="btnSupport_text">Support</string>
+
+    //-----------------------
+    // текст кнопок
+    //-----------------------
+    <string name="btn0_text">0</string>
+    <string name="btn1_text">1</string>
+    <string name="btn2_text">2</string>
+    <string name="btn3_text">3</string>
+    <string name="btn4_text">4</string>
+    <string name="btn5_text">5</string>
+    <string name="btn6_text">6</string>
+    <string name="btn7_text">7</string>
+    <string name="btn8_text">8</string>
+    <string name="btn9_text">9</string>
+    <string name="btnA_text">A</string>
+    <string name="btnB_text">B</string>
+    <string name="btnC_text">C</string>
+    <string name="btnD_text">D</string>
+    <string name="btnStar_text">E</string>
+    <string name="btnSharp_text">F</string>
+    //-----------------------
+    // текст кнопок альтернативный
+    //-----------------------
+    <string name="btn0_ext_text">0</string>
+    <string name="btn1_ext_text">1</string>
+    <string name="btn2_ext_text">2</string>
+    <string name="btn3_ext_text">3</string>
+    <string name="btn4_ext_text">4</string>
+    <string name="btn5_ext_text">5</string>
+    <string name="btn6_ext_text">6</string>
+    <string name="btn7_ext_text">7</string>
+    <string name="btn8_ext_text">8</string>
+    <string name="btn9_ext_text">9</string>
+    <string name="btnA_ext_text">Mode</string>
+    <string name="btnB_ext_text">⇑</string>
+    <string name="btnC_ext_text">⇓</string>
+    <string name="btnD_ext_text">Enter</string>
+    <string name="btnStar_ext_text">*</string>
+    <string name="btnSharp_ext_text">#</string>
+    //=======================
+
+    //-----------------------
+    // Device fragment
+    //-----------------------
+    <string name="toast_Reset_User_Info_text">Reset User Info</string>
+
+    //-----------------------
+    // текст меню
+    //-----------------------
+    <string name="menuScanBtn_Scan_text">CONNECT</string>
+    <string name="menuScanBtn_Stop_text">STOP</string>
+
+    <string name="menuItem_Bluetooth_settings">Bluetooth settings</string>
+    <string name="menuItem_user_info">User Info</string>
+    <string name="menuItem_line">-------</string>
+    <string name="menuItem_reset_user_info">Reset User Info</string>
+
+    //-----------------------
+    // текст для HelloScreen
+    //-----------------------
+    <!--<string name="btn_TL6_Error_Codes_text">TL6 Error Codes</string>-->
+    <!--<string name="btn_Fuji_Faults_text">Fuji Faults</string>-->
+    <!--<string name="btn_TL6_Parameters_text">TL6 Parameters</string>-->
+    <!--<string name="btn_Manuals_text">Manuals</string>-->
+    <!--<string name="btn_Drawings_text">Drawings</string>-->
+    <!--<string name="title_activity_register_form">register_form</string>-->
+    <string name="btn_Keypad_text">PROGRAMMING TOOL</string>
+    <string name="btn_support_text">SUPPORT</string>
+    <string name="btn_Download_text">DOWNLOAD</string>
+    <string name="btn_T2Q_Form_text">T2Q FORM</string>
+    <string name="btn_Login_to_IOT_text">LOGIN to IoT</string>
+    //=======================
+
+    //-----------------------
+    // строки в New User
+    //-----------------------
+    <string name="new_user_title">Welcome, New User!</string>
+    <string name="new_login_title">Welcome back!</string>
+    <string name="new_user_send_info_btn">Send Info</string>
+    <string name="new_login">Login</string>
+
+    <string name="new_user_first_name">First Name</string>
+    <string name="new_user_last_name">Last Name</string>
+    <string name="new_user_company_name">Company Name</string>
+    <string name="new_user_email">E-Mail</string>
+    <string name="new_password">Password</string>
+    <string name="new_user_phone_number">Phone number</string>
+    //=======================
+
+    //-----------------------
+    // названия ресурсов для файла настроек
+    //-----------------------
+    <string name="default_smtp_server">smtp.gmail.com</string>;             // default smtp server
+    <string name="default_smtp_port">465</string>;                          // default smtp port
+    <!--<string name="default_smtp_port">465</string>;                          // default smtp port-->
+    <string name="default_smtp_socket_port">465</string>;                   // default socketfactory port
+
+    <string name="email_report_addr">app@talinor.co.uk</string>;             // куда отправлять имеил
+    <!--<string name="email_report_addr">s3@taleng.com</string>;             // куда отправлять имеил-->
+    <!--<string name="email_report_addr">alvolturbo@gmail.com</string>;         // куда отправлять имеил-->
+    <string name="email_smtp_login">ptool8app@gmail.com</string>;           // откуда отправлять имеил
+    <string name="email_from">ptool8app@gmail.com</string>;                 // откуда отправлять имеил
+    <string name="email_smtp_password">taleng12</string>;                   // пароль
+    <string name="email_subject">New_User_Info</string>;                    // тема сообщения
+
+    <string name="email_send_result_successfully">Email was sent successfully</string>;     // результат отправки
+    <string name="email_send_result_not_send">Email was not send</string>;                  // результат отправки
+    <string name="email_send_result_exception">Could not send email, exception : </string>;  // результат отправки
+
+    <string name="wait_send_email_task_title">Please wait</string>;        //
+    <string name="wait_send_email_task_message">Sending e-mail</string>;   //
+    //=======================
+
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".main.HelloActivity">
+
+  <RelativeLayout
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+      android:id="@+id/ll_hello_screen_title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/hello_screen_start_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="25sp"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/ic_talinor_logo"
+        android:gravity="center"
+        />
+
+      <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="55sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Welcome!"
+        android:textSize="50sp"/>
+    </LinearLayout>
+
+    <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/ll_hello_screen_title">
+
+      <TableLayout
+        android:id="@+id/hello_screen_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2,3"
+        android:stretchColumns="0,1,2,3"
+        android:weightSum="0.8">
+
+        <!--<TableRow-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_TL6_Error_Codes"-->
+        <!--style="@style/BtnHelloScreenStyle"-->
+        <!--android:layout_column="1"-->
+        <!--android:layout_span="3"-->
+        <!--android:text="@string/btn_TL6_Error_Codes_text" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_Fuji_Faults"-->
+        <!--style="@style/BtnHelloScreenStyle"-->
+        <!--android:layout_column="1"-->
+        <!--android:layout_span="3"-->
+        <!--android:text="@string/btn_Fuji_Faults_text" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_TL6_Parameters"-->
+        <!--style="@style/BtnHelloScreenStyle"-->
+        <!--android:layout_column="1"-->
+        <!--android:layout_span="3"-->
+        <!--android:text="@string/btn_TL6_Parameters_text" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_Manuals"-->
+        <!--style="@style/BtnHelloScreenStyle"-->
+        <!--android:layout_column="1"-->
+        <!--android:layout_span="3"-->
+        <!--android:text="@string/btn_Manuals_text" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_Drawings"-->
+        <!--style="@style/BtnHelloScreenStyle"-->
+        <!--android:layout_column="1"-->
+        <!--android:layout_span="3"-->
+        <!--android:text="@string/btn_Drawings_text" />-->
+        <!--</TableRow>-->
+        <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <Button
+            android:id="@+id/btn_Keypad"
+            style="@style/BtnHelloScreenStyle"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:text="@string/btn_Keypad_text"/>
+        </TableRow>
+        <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <Button
+            android:id="@+id/btn_Support"
+            style="@style/BtnHelloScreenStyle"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:text="@string/btn_support_text"/>
+        </TableRow>
+        <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+
+          <Button
+            android:id="@+id/btn_T2Q_Form"
+            style="@style/BtnHelloScreenStyle"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:text="@string/btn_T2Q_Form_text"/>
+        </TableRow>
+        <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+
+          <Button
+            android:id="@+id/btn_Download"
+            style="@style/BtnHelloScreenStyle"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:text="@string/btn_Download_text"/>
+        </TableRow>
+        <TableRow
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+
+          <Button
+            android:id="@+id/btn_Login_to_IOT"
+            style="@style/BtnHelloScreenStyle"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:text="@string/btn_Login_to_IOT_text"/>
+        </TableRow>
+
+      </TableLayout>
+
+    </ScrollView>
+  </RelativeLayout>
+
+  <Button
+    android:id="@+id/btn_log_out"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="16dp"
+    android:background="?attr/selectableItemBackground"
+    android:text="Log out"
+    android:textAllCaps="false"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/relativeLayout"/>
+
+  <TextView
+    android:id="@+id/tv_hello_screen_APK_Version"
+    style="@style/apk_version"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:text="@string/app_version"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/relativeLayout"/>
+
+</android.support.constraint.ConstraintLayout>

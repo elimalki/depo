@@ -1,0 +1,25 @@
+<resources>
+
+
+    <string-array name="web_link_err_code_list">
+        <item>http://www.example.com</item>
+        <item>http://www.talinor.co.uk/err_1</item>
+        <item>http://www.talinor.co.uk/err_2</item>
+        <item>http://www.talinor.co.uk/err_3</item>
+        <item>http://www.talinor.co.uk/err_4</item>
+    </string-array>
+
+    <string-array name="web_link_btn_list">
+        <item>http://www.talinor.co.uk/videos</item>
+        <item>http://www.talinor.co.uk/support2</item>
+        <item>http://www.talinor.co.uk</item>
+    </string-array>
+
+
+    <!--<string name="app_name">Talinor toolkit</string>-->
+    <string name="web_link_err_code_0">http://www.example.com</string>
+    <string name="web_link_err_code_1">http://www.talinor.co.uk/err_1</string>
+    <string name="web_link_err_code_2">http://www.talinor.co.uk/err_2</string>
+    <string name="web_link_err_code_3">http://www.talinor.co.uk/err_3</string>
+
+</resources>
